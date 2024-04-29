@@ -117,9 +117,9 @@ public class Student {
         int Activities = sc.nextInt();
         sc.nextLine(); 
         for (int i = 0; i < Activities; i++) {
-            System.out.print("Enter activity " + i + ": ");
+            System.out.print("Enter activity " + (i+1) + ": ");
             String activity = sc.nextLine();
-            details.activities.put("Activity " + i, activity);
+            details.activities.put("Activity " + (i+1), activity);
         }
 
     }
